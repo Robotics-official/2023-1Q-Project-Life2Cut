@@ -27,6 +27,12 @@ $ python3 SmartMirror.py
 $ uvicorn main:app --reload
 ```
 
+## Contributers
+
+- GUI/SERVER - [SWtheWhite](https://github.com/SWtheWhite)
+- OpenCV - [ukkKyo](https://github.com/ukkKyo)
+- Design - [parksiwoon](https://github.com/parksiwoon)
+
 ## Support
 
 Life2Cut is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers.
@@ -35,12 +41,6 @@ Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
-
-## Stay in touch
-
-- GUI/SERVER - [SWtheWhite](https://github.com/SWtheWhite)
-- OpenCV - [ukkKyo](https://github.com/ukkKyo)
-- Design - [parksiwoon](https://github.com/parksiwoon)
 
 ## License
 
