@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/SWtheWhite/Life2Cut/main/images/LIFE2CUT.png" width="200" alt="Life2Cut" />
 </p>
 
-<p align="center">SmartMirror and Sticker Camera, ALL AT ONCE.&nbsp
+<p align="center">SmartMirror and StickerCamera, ALL AT ONCE.&nbsp
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FSWtheWhite%2FLife2Cut&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </p>
   
