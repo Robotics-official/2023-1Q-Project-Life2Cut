@@ -44,4 +44,4 @@ Please make sure to update tests as appropriate.
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+Life2Cut is [MIT licensed](LICENSE).
