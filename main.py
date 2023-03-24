@@ -16,4 +16,3 @@ def read_root():
 async def get_image(image_id: str):
     image_path = "images/"+image_id+".PNG"
     return FileResponse(image_path)
-
