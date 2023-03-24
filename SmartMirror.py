@@ -3,7 +3,8 @@ import hashlib
 import os, sys
 from os import remove
 import time
-#port cv2
+from picamera import PiCamera
+import cv2
 from PIL import Image, ImageDraw, ImageEnhance
 import qrcode
 from io import StringIO
