@@ -14,8 +14,6 @@ import requests
 from datetime import datetime
 
 
-
-
 # CLOCK GUI Part
 
 def return_print(*message):
@@ -25,15 +23,11 @@ def return_print(*message):
 
 def on_click(event):
     for i in range (2) :
-            for i in range(1, 7):
-                    #src = cv2.imread(f'/home/pi/robo/countdown_3/{i}.jpg', cv2.IMREAD_COLOR)
-            
-                    #dst = cv2.resize(src, dsize=(720,432), interpolation=cv2.INTER_AREA)
-
+            for i in range(1, 6+1):
                     cv2.namedWindow("Window_name", cv2. WINDOW_NORMAL)
                     cv2.setWindowProperty("Window_name", cv2. WND_PROP_FULLSCREEN, cv2. WINDOW_FULLSCREEN)
                     cv2.moveWindow("Window_name", x=0, y=0)
-                    img = cv2.imread(f'/home/pi/robo/countdown2/{i}.jpg', cv2.IMREAD_COLOR)
+                    img = cv2.imread(f'./images/countdown/{i}.jpg', cv2.IMREAD_COLOR)
                     #dst = cv2.resize(img, dsize=(800, 480), interpolation=cv2.INTER_AREA)
                     cv2.imshow("Window_name", img)
                     #cv2.imshow("dst", dst)
@@ -76,7 +70,7 @@ def on_click(event):
     hash_object = hashlib.sha256(nowDateTime.encode())
     filename_hash = hash_object.hexdigest()
     ### IMAGE SAVE
-    new.save("images/"+f"{filename_hash[:10]}.PNG")
+    new.save("./images/"+f"{filename_hash[:10]}.PNG")
     new.show()
     ### READY URL
     image_url = 'http://220.149.85.12/images/'+f"{filename_hash[:10]}"
@@ -86,7 +80,7 @@ def on_click(event):
     qr.make(fit=True)
     img = qr.make_image(fill_color="black", back_color="white")
     ### QR SAVE
-    img.save('qr/'+f"{filename_hash[:10]}.png")
+    img.save('./qr/'+f"{filename_hash[:10]}.png")
     ### QR SHOW
     img.show()
 
