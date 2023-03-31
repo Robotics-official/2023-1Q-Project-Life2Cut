@@ -15,6 +15,7 @@ With this program, you can have smart mirror and sticker camera, ALL AT ONCE.
 
 ```bash
 $ pip install -r requirements.txt
+$ chmod 755 camera.sh
 ```
 
 ## Running the app
