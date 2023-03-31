@@ -43,7 +43,7 @@ def on_click(event):
 
     cnt = 0
     for filename in file_list:
-            img = return_print("./images/temp"+f"{os.path.splitext(filename)[0]}")
+            img = return_print("./images/temp/"+f"{os.path.splitext(filename)[0]}")
             cnt += 1
             if cnt == 1:
                     second = Image.open(f"{img}.jpg")
@@ -74,7 +74,7 @@ def on_click(event):
     qr.make(fit=True)
     img = qr.make_image(fill_color="black", back_color="white")
     # QR SAVE
-    img.save('./qr/'+f"{filename_hash}.png")
+    img.save('./images/qr/'+f"{filename_hash}.png")
     # QR SHOW
     img.show()
 
